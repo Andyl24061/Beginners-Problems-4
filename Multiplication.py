@@ -1,6 +1,6 @@
 positiveinteger = False
 while not positiveinteger:
-    num = int(input("Enter a possitive integer"))
+    num = int(input("Enter a positive integer:"))
     if num > 0:
         positiveinteger = True
         print(num * 1)
